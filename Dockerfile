@@ -1,4 +1,3 @@
-dockerfile
 FROM ghcr.io/napneko/napcat-docker:latest
 RUN mkdir -p /opt/napcat-backup && \
     cp -r /app/napcat /opt/napcat-backup/
